@@ -1,0 +1,27 @@
+# --- Core Framework & Settings ---
+pydantic>=2.7.0,<3.0.0
+pydantic-settings>=2.2.0,<3.0.0
+typer[all]>=0.12.3,<1.0.0
+rich>=13.7.1,<14.0.0
+loguru>=0.7.2,<1.0.0
+python-dotenv>=1.0.1,<2.0.0
+
+# --- LLM Orchestration & AI Engine ---
+litellm>=1.40.0,<2.0.0
+langgraph>=0.2.0,<0.3.0
+langchain-core>=0.2.0,<0.4.0
+ollama>=0.3.0,<1.0.0
+tenacity>=8.3.0,<9.0.0
+
+# --- Cloud & DevSecOps Tools ---
+PyGithub>=2.3.0,<3.0.0
+gitpython>=3.1.43,<4.0.0
+docker>=7.1.0,<8.0.0
+
+# --- Testing & Quality Assurance ---
+pytest>=8.2.0,<9.0.0
+pytest-asyncio>=0.23.0,<1.0.0
+pytest-mock>=3.14.0,<4.0.0
+mypy>=1.10.0,<2.0.0
+black>=24.4.2,<25.0.0
+ruff>=0.4.8,<1.0.0
